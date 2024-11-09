@@ -292,7 +292,7 @@ footer {
 
 footer a {
   color: hsl(167, 40%, 24%);
-  transition: color ease-in-out .3s;
+  transition: color ease-in-out 0.3s;
 }
 
 footer a:hover {
@@ -383,10 +383,6 @@ footer a:hover {
 }
 
 @media screen and (min-width: 1000px) {
-.arrow-down {
-  height: 300px;
-}
-
   .mobile-nav,
   .mobile-menu {
     display: none;
@@ -411,7 +407,7 @@ footer a:hover {
     padding: 1rem 1.5rem;
     border-radius: 30px;
     font-weight: bold;
-    transition: all ease-in-out .3s;
+    transition: all ease-in-out 0.3s;
   }
 
   nav ul li:last-child a:hover {
@@ -421,11 +417,9 @@ footer a:hover {
 
   .main-heading {
     letter-spacing: 5px;
-    margin-top: 150px;
-    font-size: 5rem;
+    margin-top: 0;
+    font-size: 3rem;
   }
-
-  
 
   .graphics {
     background-image: url("./images/desktop/image-graphic-design.jpg");
